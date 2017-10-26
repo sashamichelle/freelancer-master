@@ -1,0 +1,391 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+nav{
+font-family: 'Montserrat', sans-serif;
+position: fixed;
+background-color:#2C3E50;
+color:#fff;
+height:100px;
+width: 100%;
+font-weight: bold;
+}
+
+ul{
+list-style:none;
+	line-height:40px;
+	padding-right:20px;
+	text-transform: uppercase;
+	
+ }
+
+ .appart{
+ 	position: fixed;
+	left:150px;
+	top:30px;
+	width: 250px;
+	font-size:25px;
+
+}
+li{
+display:inline-block;
+position: relative;
+left:750px;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.container{
+	width: 100%;
+	height:auto;
+	z-index: 100;
+	text-size-adjust:100%;
+}
+
+.intro{
+height:700px;
+width: 100%;
+background-color: #18BC9C;
+
+
+}
+.intro .imageintro img{
+	display: inline-block;
+	position:relative;
+ 	top:200px;
+ 	height:300px;
+ 	width:200;
+ 	left:500px;
+}
+ .intro .name{
+	font-size: 46px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-weight: bold;
+    position:relative;
+    left:425px;
+    top:205px;
+    width: 100%;
+}
+.decoration i{
+	position: relative;
+	font-size:30px;
+	color:#fff;
+	top:200px;
+	left:635px;
+}
+.decoration .line1{
+	position: relative;
+	border-top: 5px solid white;
+	width:150px;
+    display:inline-block;
+    left:480px;
+    top:222px;
+}
+
+.decoration .line2{
+	position: relative;
+	border-top: 5px solid white;
+	width:150px;
+    display:inline-block;
+    left:670px;
+    top:175px;
+}
+span.skills{
+	font-family: 'Montserrat', sans-serif;
+    position: relative;
+	width:400px;
+    left:370px;
+    top:180px;	
+    font-size:20px;
+    color:#fff;
+}
+
+.portafolio{
+background: #fff;
+height:700px;
+width:100%;
+}
+.portafolio h2{
+font-family: 'Montserrat', sans-serif;
+position: relative;
+left:560px;
+font-weight: bold;
+font-size:46px;
+}
+
+.decoration2 i{
+	position: relative;
+	font-size:30px;
+	color:#000;
+	bottom:60px;
+	left:640px;
+}
+.decoration2 .line3{
+	position: relative;
+	border-top: 5px solid black;
+	width:150px;
+    display:inline-block;
+    bottom:38px;
+    left:485px;    
+}
+
+.decoration2 .line4{
+	position: relative;
+	border-top: 5px solid black;
+	width:150px;
+    display:inline-block;
+    left:670px;
+    bottom:85px;
+}
+
+.img1 img{
+	position: relative;
+bottom:45px;
+height:250px;
+width: 350px;
+left:90px;
+}
+.img2 img{
+	position: relative;
+bottom:300px;
+height:250px;
+width: 350px;
+left:460px;
+}
+.img3 img{
+position: relative;
+bottom:553px;
+height:250px;
+width: 350px;
+left:830px;
+}
+
+.img4 img{
+position: relative;
+bottom:535px;
+height:250px;
+width: 350px;
+left:90px;
+}
+
+.img5 img{
+	position: relative;
+bottom:790px;
+height:250px;
+width: 350px;
+left:460px;
+}
+
+.img6 img{
+position: relative;
+bottom:1045px;
+height:250px;
+width: 350px;
+left:830px;
+}
+
+.partAbout{
+	position: relative;
+	height: 600px;
+	width:100%;
+	background-color: #18BC9C;
+
+}
+.partAbout h2{
+	position: relative;
+ 	text-align: center;
+	color:#fff;
+	top:30px;
+	font-size:45px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family:'Montserrat', sans-serif;
+}
+.decoration3 i{
+	position: relative;
+	font-size:30px;
+	color:#fff;
+	bottom:30px;
+	left:660px;
+}
+.decoration3 .line5{
+	position: relative;
+	border-top: 5px solid white;
+	width:150px;
+    display:inline-block;
+    bottom:8px;
+    left:495px;
+}
+
+.decoration3 .line6{
+	position: relative;
+	border-top: 5px solid white;
+	width:150px;
+    display:inline-block;
+    left:700px;
+    bottom:55px;
+}
+.firstP h4{
+	font-family:'Lato', sans-serif;
+	position: relative;
+	color:#fff;
+	height: 300px;
+	width: 200px;
+	bottom:40px;
+	left:230px;
+	font-size: 20px;
+	font-weight:500;
+}
+
+.secondP h4{
+	font-family:'Lato', sans-serif;
+	position:relative;
+	color:#fff;
+	height: 300px;
+	width: 200px;
+	left:850px;
+	bottom:400px;
+	font-size: 20px;
+	display: inline-block;
+	font-weight:500;
+}
+
+ .partAbout a{
+font-family:'Lato', sans-serif;
+position: relative;
+bottom:405px;
+left:510px;
+border: 3px solid white;
+border-radius: 5px 10px; 
+padding: 15px;
+color:#fff;
+text-decoration: none;
+}
+
+.imputs{
+	height: 700px;
+	width: 100%;
+	background-color:white;
+}
+
+.contact{
+	font-family:'Montserrat', sans-serif;
+position: relative;
+font-size: 50px;
+font-weight: bolder;
+left:525px;
+top:15px;
+}
+ .imputs form{
+font-family:'Lato', sans-serif;
+margin-top: 20px;
+margin-left: 300px;
+}
+.imputs form input{
+width: 800px;
+height: 80px;    
+font-size: 24px;
+font-weight: 400;
+color: #9CA3A9 ;
+border: none;
+display: block;
+border-bottom: 1px solid #eee;
+}
+
+
+.botton1 button{
+position: relative;
+left:295px;
+width:95px;
+height:40px;
+top:125px;
+color:#fff;
+background-color: #18BC9C;
+border-radius:15%;
+font-family:'Lato', sans-serif;
+font-weight: bold;
+
+}
+footer{
+	height:400px;
+	width: 100%;
+	background-color: #2C3E50;
+}
+.location{
+	text-transform: uppercase;
+	position: relative;
+	left: 35px;
+	color:#fff;
+}
+.location h3{
+	font-family:'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 28px;
+position:relative;
+top: 20px;
+left: 35px;
+}
+.p1{
+	font-family:'Lato', sans-serif;
+font-size: 20px;
+}
+.p2{
+	font-family:'Lato', sans-serif;
+font-size: 20px;
+position: relative;
+bottom:10px;
+}
+.Arround h3{
+	text-transform: uppercase;
+	font-family:'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 28px;
+position:relative;
+bottom:135px;
+left: 550px;
+color: #fff;
+}
+
+.Arround i{
+	display: inline-block;
+font-size: 20px;
+position: relative;
+color:#fff;
+border:2px solid white;
+border-radius: 100%;
+padding:15px;
+left:560px;
+bottom:140px;
+}
+.freelancer h3{
+	font-family:'Montserrat', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+font-size:28px;
+position:relative;
+bottom: 280px;
+left:990px;
+color:#fff;
+}
+.freelancer p{
+	font-family:'Lato', sans-serif;
+	position: relative;
+	width:300px;
+	height: 100px;
+	bottom:280px;
+	color:#fff;
+	font-size: 20px;
+left:1000px;
+}
+.freelancer a{
+	color:#18BC9C;
+}
