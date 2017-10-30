@@ -1,13 +1,16 @@
+/*dando propiedades generales a mi body*/
 body{
 	padding: 0;
 	margin: 0;
 }
+/*dando los detalles y posición de mi barra*/
 header {
   background: rgba(0,0,0,0.9);
   width: 100%;
   position: fixed;
   z-index: 100;
 }
+/*dando tamaño a mi barra de navegación*/
 nav{
 font-family: 'Montserrat', sans-serif;
 position: fixed;
@@ -17,7 +20,7 @@ height:100px;
 width: 100%;
 font-weight: bold;
 }
-
+/*eliminando formatos y posicionando los elementos de la lista*/
 ul{
 list-style:none;
 	line-height:40px;
@@ -25,7 +28,7 @@ list-style:none;
 	text-transform: uppercase;
 	
  }
-
+/*dando posicion a mi li apartado*/
  .appart{
  	position: fixed;
 	left:150px;
@@ -34,6 +37,7 @@ list-style:none;
 	font-size:25px;
 
 }
+ /*dando propiedades a mis elementos li*/
 li{
 display:inline-block;
 position: relative;
@@ -42,13 +46,14 @@ left:750px;
   color: #fff;
   text-decoration: none;
 }
+/*dando propiedades a mi contenedor principal*/
 .container{
 	width: 100%;
 	height:auto;
 	z-index: 100;
 	text-size-adjust:100%;
 }
-
+/*posicionamiento y tamaño de mi sección uno*/
 .intro{
 height:700px;
 width: 100%;
@@ -56,6 +61,7 @@ background-color: #18BC9C;
 
 
 }
+/*posicionamiento y tamaño de mi imagen de sección uno*/
 .intro .imageintro img{
 	display: inline-block;
 	position:relative;
@@ -75,6 +81,7 @@ background-color: #18BC9C;
     top:205px;
     width: 100%;
 }
+/*dando posicion y tamaño para mi icono estrella*/
 .decoration i{
 	position: relative;
 	font-size:30px;
@@ -82,6 +89,7 @@ background-color: #18BC9C;
 	top:200px;
 	left:635px;
 }
+/*dando posicion y tamaño para mi primera linea */
 .decoration .line1{
 	position: relative;
 	border-top: 5px solid white;
@@ -90,7 +98,7 @@ background-color: #18BC9C;
     left:480px;
     top:222px;
 }
-
+/*dando posicion y tamaño para mi segunda linea */
 .decoration .line2{
 	position: relative;
 	border-top: 5px solid white;
@@ -99,6 +107,7 @@ background-color: #18BC9C;
     left:670px;
     top:175px;
 }
+/*dando posicion y propiedades a mi span*/
 span.skills{
 	font-family: 'Montserrat', sans-serif;
     position: relative;
@@ -108,12 +117,13 @@ span.skills{
     font-size:20px;
     color:#fff;
 }
-
+/*tamaño y color de la segunda sección*/
 .portafolio{
 background: #fff;
 height:700px;
 width:100%;
 }
+/*posicion de  mi titulo de la segunda seccion*/
 .portafolio h2{
 font-family: 'Montserrat', sans-serif;
 position: relative;
@@ -121,7 +131,7 @@ left:560px;
 font-weight: bold;
 font-size:46px;
 }
-
+/*dando posicion y tamaño para mi icono estrella*/
 .decoration2 i{
 	position: relative;
 	font-size:30px;
@@ -129,6 +139,7 @@ font-size:46px;
 	bottom:60px;
 	left:640px;
 }
+/*dando posicion y tamaño para mi primera linea */
 .decoration2 .line3{
 	position: relative;
 	border-top: 5px solid black;
@@ -137,7 +148,7 @@ font-size:46px;
     bottom:38px;
     left:485px;    
 }
-
+/*dando posicion y tamaño para mi segunda linea */
 .decoration2 .line4{
 	position: relative;
 	border-top: 5px solid black;
@@ -146,7 +157,7 @@ font-size:46px;
     left:670px;
     bottom:85px;
 }
-
+/*dando tamaño y posicion de mi imagen 1*/
 .img1 img{
 	position: relative;
 bottom:45px;
@@ -154,6 +165,7 @@ height:250px;
 width: 350px;
 left:90px;
 }
+/*dando tamaño y posicion de mi imagen 2*/
 .img2 img{
 	position: relative;
 bottom:300px;
@@ -161,6 +173,7 @@ height:250px;
 width: 350px;
 left:460px;
 }
+/*dando tamaño y posicion de mi imagen 3*/
 .img3 img{
 position: relative;
 bottom:553px;
@@ -168,7 +181,7 @@ height:250px;
 width: 350px;
 left:830px;
 }
-
+/*dando tamaño y posicion de mi imagen 4*/
 .img4 img{
 position: relative;
 bottom:535px;
@@ -176,7 +189,7 @@ height:250px;
 width: 350px;
 left:90px;
 }
-
+/*dando tamaño y posicion de mi imagen 5*/
 .img5 img{
 	position: relative;
 bottom:790px;
@@ -184,7 +197,7 @@ height:250px;
 width: 350px;
 left:460px;
 }
-
+/*dando tamaño y posicion de mi imagen 6*/
 .img6 img{
 position: relative;
 bottom:1045px;
@@ -192,7 +205,7 @@ height:250px;
 width: 350px;
 left:830px;
 }
-
+/*tamaño de mi tercera sección*/
 .partAbout{
 	position: relative;
 	height: 600px;
@@ -200,6 +213,7 @@ left:830px;
 	background-color: #18BC9C;
 
 }
+/*dando posicion y propiedad a mi etiqueta h1*/
 .partAbout h2{
 	position: relative;
  	text-align: center;
@@ -210,6 +224,7 @@ left:830px;
 	font-weight: 800;
 	font-family:'Montserrat', sans-serif;
 }
+/*dando posicion y tamaño para mi icono estrella*/
 .decoration3 i{
 	position: relative;
 	font-size:30px;
@@ -217,6 +232,7 @@ left:830px;
 	bottom:30px;
 	left:660px;
 }
+/*dando posicion y tamaño para mi primera linea */
 .decoration3 .line5{
 	position: relative;
 	border-top: 5px solid white;
@@ -225,7 +241,7 @@ left:830px;
     bottom:8px;
     left:495px;
 }
-
+/*dando posicion y tamaño para mi primera linea */
 .decoration3 .line6{
 	position: relative;
 	border-top: 5px solid white;
@@ -234,6 +250,7 @@ left:830px;
     left:700px;
     bottom:55px;
 }
+/*dando posicion y tamaño de mi primer titulo de la seccion*/
 .firstP h4{
 	font-family:'Lato', sans-serif;
 	position: relative;
@@ -245,7 +262,7 @@ left:830px;
 	font-size: 20px;
 	font-weight:500;
 }
-
+/*dando posicion y tamaño de mi segundo titulo de la seccion*/
 .secondP h4{
 	font-family:'Lato', sans-serif;
 	position:relative;
@@ -258,7 +275,7 @@ left:830px;
 	display: inline-block;
 	font-weight:500;
 }
-
+/*dando propiedades y tamaño de mi vinculo del boton*/
  .partAbout a{
 font-family:'Lato', sans-serif;
 position: relative;
@@ -270,13 +287,13 @@ padding: 15px;
 color:#fff;
 text-decoration: none;
 }
-
+/*dando tamaño a mi cuarta seccion*/
 .imputs{
 	height: 700px;
 	width: 100%;
 	background-color:white;
 }
-
+/*dando posicion a mi titulo de seccion*/
 .contact{
 	font-family:'Montserrat', sans-serif;
 position: relative;
@@ -285,11 +302,13 @@ font-weight: bolder;
 left:525px;
 top:15px;
 }
+/*dando propiedades y posiciones  generales de mis imputs*/
  .imputs form{
 font-family:'Lato', sans-serif;
 margin-top: 20px;
 margin-left: 300px;
 }
+/*dando propiedades y posiciones detalladas de mis imputs*/
 .imputs form input{
 width: 800px;
 height: 80px;    
@@ -301,7 +320,7 @@ display: block;
 border-bottom: 1px solid #eee;
 }
 
-
+/*dando propiedades y posicion de mi boton de enviar*/
 .botton1 button{
 position: relative;
 left:295px;
@@ -315,17 +334,20 @@ font-family:'Lato', sans-serif;
 font-weight: bold;
 
 }
+/*tamaño de mi footer*/
 footer{
 	height:400px;
 	width: 100%;
 	background-color: #2C3E50;
 }
+/*tamaño y posicion generales de mi titulo de la columna location*/
 .location{
 	text-transform: uppercase;
 	position: relative;
 	left: 35px;
 	color:#fff;
 }
+/*tamaño y posicion detalladas de mi titulo de la columna location*/
 .location h3{
 	font-family:'Montserrat', sans-serif;
 font-weight: bold;
@@ -334,16 +356,19 @@ position:relative;
 top: 20px;
 left: 35px;
 }
+/*dando fuente y tamaño de mi parrafo*/
 .p1{
 	font-family:'Lato', sans-serif;
 font-size: 20px;
 }
+/*dando fuente y tamaño de mi parrafo*/
 .p2{
 	font-family:'Lato', sans-serif;
 font-size: 20px;
 position: relative;
 bottom:10px;
 }
+/*tamaño y posicion detalladas de mi titulo de la columna arround*/
 .Arround h3{
 	text-transform: uppercase;
 	font-family:'Montserrat', sans-serif;
@@ -354,7 +379,7 @@ bottom:135px;
 left: 550px;
 color: #fff;
 }
-
+/*dando posicion y diseño de mis iconos*/
 .Arround i{
 	display: inline-block;
 font-size: 20px;
@@ -366,6 +391,7 @@ padding:15px;
 left:560px;
 bottom:140px;
 }
+/*tamaño y posicion detalladas de mi titulo de la columna freelancer*/
 .freelancer h3{
 	font-family:'Montserrat', sans-serif;
 font-weight: bold;
@@ -376,6 +402,7 @@ bottom: 280px;
 left:990px;
 color:#fff;
 }
+/*tamaño y posicion detalladas de mi parrafo de la columna freelancer*/
 .freelancer p{
 	font-family:'Lato', sans-serif;
 	position: relative;
@@ -386,6 +413,7 @@ color:#fff;
 	font-size: 20px;
 left:1000px;
 }
+/*color detallado de mi vinculo de la columna freelancer*/
 .freelancer a{
 	color:#18BC9C;
 }
